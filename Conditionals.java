@@ -64,7 +64,7 @@ public class Conditionals {
         return (!isNeg && numOne < 0 ^ numTwo < 0);
     }
     public boolean pickUpPhone(boolean isMorning, boolean isMom, boolean isAsleep){
-        if ((isAsleep == true) || (isMorning && isMom == false)) {
+        if (isAsleep || (isMorning && isMom == false)) {
             return false;
         } else {
             return true;
