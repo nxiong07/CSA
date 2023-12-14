@@ -1,6 +1,6 @@
-public class factorialClass {
+public class FactorialClass {
     public static void main(String[] args){
-        factorialClass f = new factorialClass();
+        FactorialClass f = new FactorialClass();
 
         System.out.println("\t Calculate Factorial");
         for(int n = 1; n <= 20; n++){
